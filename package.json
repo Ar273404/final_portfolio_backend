@@ -1,0 +1,19 @@
+{
+  "name": "portfoliobackend",
+  "version": "1.0.0",
+  "description": "portfolio backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon server.js"
+  },
+  "author": "Arun yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "nodemon": "^3.1.4"
+  }
+}
